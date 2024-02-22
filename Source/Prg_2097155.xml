@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738938" _time="74634" date="22/02/2024" time="20:43:54"/>
+          <LastModified _date="738938" _time="75038" date="22/02/2024" time="20:50:38"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
@@ -125,7 +125,7 @@
                   <Column val="2097153"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="1"/>
+                  <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -136,22 +136,33 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="1" _last_test_id="1" id="1">
+          <FormEntry _last_isn="2" _last_test_id="2" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Test 2 online"/>
             </PropertyList>
+            <Control _test_id="2" id="2">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Upisi text"/>
+                <X id="21" val="27"/>
+                <Y id="22" val="22"/>
+                <Width id="23" val="70"/>
+                <Height id="24" val="14"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="1" id="2097153">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="2097153"/>
                 </Model>
                 <X id="21" val="27"/>
-                <Y id="22" val="46"/>
+                <Y id="22" val="38"/>
                 <Width id="23" val="70"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="2097153" id="43"/>
                 <ControlName id="46" val="text"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
