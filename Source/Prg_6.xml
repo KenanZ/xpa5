@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Test 5" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="6">
+        <Header Description="Test 5" ISN_2="1" LastIsn="1" id="6">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="738938" _time="77953" date="22/02/2024" time="21:39:13"/>
         </Header>
         <Resource>
           <Columns/>
@@ -113,11 +113,21 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="1" _last_test_id="1" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Test 5"/>
             </PropertyList>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Text"/>
+                <X id="21" val="71"/>
+                <Y id="22" val="61"/>
+                <Width id="23" val="83"/>
+                <Height id="24" val="23"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
